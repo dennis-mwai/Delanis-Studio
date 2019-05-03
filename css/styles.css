@@ -46,5 +46,12 @@
 
 h6{
     font-size: 10px;
+}
 
+.background3{
+    background-image: url(/assets/backgrounds/c_image.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    margin-top: 50px;
 }
