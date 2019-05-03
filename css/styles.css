@@ -19,3 +19,23 @@
     top: 95%;
     left: 50%;
    }  
+
+.centered2{
+    text-align: center;
+}   
+
+.background2{
+    background-image: url(/assets/backgrounds/s_image.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+}
+
+.centered3{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: aliceblue;    
+}
