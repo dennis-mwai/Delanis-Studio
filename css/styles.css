@@ -86,4 +86,26 @@ p#developmenttext{
     text-align: center;
     margin-top: 20px;  
     font-size: 15px;
+    display: none;
+}
+
+.jumbotron{
+    padding-top: 0%;
+}
+
+form{
+    opacity: 0.5;
+}
+
+.centered5{
+    text-align: center;
+    color: white;
+}
+
+.comment{
+    height: 200px;
+}
+
+.name{
+    align-items: right;
 }
