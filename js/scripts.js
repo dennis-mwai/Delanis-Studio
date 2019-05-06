@@ -26,12 +26,13 @@ $(document).ready(function (){
     })
 
     $(function(){
-        $('#work4image').on('mouseover',function(){
-            $('#work4text').html('work 4 u');
-            $('#work4image').fadeTo("slow", 0.15);
+        $('#workcard').hover(function(){
+            $('#workcard').fadeTo("slow", 0.15);
+            $('#work4text').show();
+            
         });
-        $('#work4text').on('mouseover',function(){
-            $('#work4image').fadeTo("slow", 1);
+        $('#workcard').hover(function(){
+            $('#workcard').fadeTo("slow", 1);
         });
     });
 

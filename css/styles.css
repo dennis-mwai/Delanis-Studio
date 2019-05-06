@@ -95,6 +95,7 @@ p#developmenttext{
 
 form{
     opacity: 0.5;
+    display: inline-block;
 }
 
 .centered5{
@@ -108,4 +109,19 @@ form{
 
 .name{
     align-items: right;
+}
+
+
+#workcard{
+    background-image: url(/assets/portfolio/work4.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 200px;
+    margin-top: 50px;
+}
+
+#work4text{
+    color: wheat;
+    margin-top: 90px;
+    display: none;
 }
