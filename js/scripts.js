@@ -26,15 +26,24 @@ $(document).ready(function (){
     })
 
     $(function(){
-        $('#workcard').hover(function(){
+        $('#workcard').mouseover(function(){
             $('#workcard').fadeTo("slow", 0.15);
             $('#work4text').show();
             
         });
-        $('#workcard').hover(function(){
+        $('#workcard').mouseout(function(){
             $('#workcard').fadeTo("slow", 1);
+            $('#work4text').hide();
         });
     });
+
+    $("#theform").submit(function(e){
+        e.preventDefault();
+        var name= $('#yourname').val();
+        var email = $('#youremail').val();
+        var text = $('#yourcoment').val();
+        alert(`name: ${name}, email: ${email}, text: ${text}.`);
+      });
 
 });
 
